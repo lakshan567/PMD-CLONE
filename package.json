@@ -5,7 +5,7 @@
 "main": "start.js",
 "scripts": {
 "start": "pm2 start start.js --deep-monitoring --attach --name thusith",
-"stop": "pm2 stop newAcc",
+"stop": "pm2 stop thusith",
 "restart": "pm2 restart thusith"
 },
 "dependencies": {
